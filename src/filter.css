@@ -1,0 +1,63 @@
+
+.arrow-up{
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 1px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.arrow-down{
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 1px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.filter_keywords, .filter_options, .filter_details{
+    width:100% !important;
+    color: black !important;
+    height: 25px;
+}
+
+.filter_option_color{
+    color: black;
+}
+.addNewFilter{
+    margin-top: 1%;
+}
+.addNewFilterButton{
+    margin: 5%;
+}
+.filter_Label{
+
+    font-size: medium;
+}
+.filterCol{
+    border: dashed;
+    border-color: white;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    border-width:thin;
+}
+.filteringOperation{
+    border: 1px solid;
+    border-color: white;
+    padding: 1%;
+}
+.criteriaButton{
+    background-color:#252830 ;
+    color: white;
+    margin-top: 5%;
+}
+.inputFilter{
+    margin-top: 1%;
+}
+.searchFilterButton{
+    height: 65px;
+    width: 98%;
+    margin: 2%;
+    font-size: medium;
+}
